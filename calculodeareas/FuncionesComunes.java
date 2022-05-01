@@ -78,5 +78,17 @@ public double VolumendeunTriangulo (double volumen){
 
    }
 
+public double PerimetrodeunRectangulo (double perimetro0){
+     
+     
+     System.out.print("Ingrese una altura\n");   
+     double altura2=scanner.nextDouble();
+     System.out.print("Ingrese una base\n");   
+     double base2=scanner.nextDouble();
+     double perimetro3 = (2*altura2+2*base2);
+     return perimetro3;
+
+}
+
 
 }

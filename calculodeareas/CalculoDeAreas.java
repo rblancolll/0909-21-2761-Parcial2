@@ -123,17 +123,28 @@ static Scanner scanner=new Scanner (System.in);
 
       case 3 -> {  
        System.out.print("\n 1. Area de un Rectangulo ");
+       System.out.print("\n 2. Perimetro de un Rectangulo ");
        System.out.print("\n Escoja la operacion que desea: ");
        
        int opcion3 = scanner.nextInt();    
        FuncionesComunes Comunes= new FuncionesComunes();
        switch(opcion3){
+        
         case 1 -> { 
         System.out.print("Ingrese la base:\n");  
         double area3= 0;
         System.out.println("El resultado es: " + Comunes.AreadeunRectangulo(area3));
          }
-      }
+      
+        case 2 -> {
+        int perimetro3= 0;
+        System.out.println("El resultado es: " + Comunes.PerimetrodeunRectangulo(perimetro3));      
+         }
+       
+       
+       
+       
+       }
     }
 
   
