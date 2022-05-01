@@ -126,6 +126,7 @@ static Scanner scanner=new Scanner (System.in);
        System.out.print("\n 2. Perimetro de un Rectangulo ");
        System.out.print("\n 3. Volumen de un Rectangulo");
        System.out.print("\n 4. Area Sombreada de un Rectangulo ");
+       System.out.print("\n 5. Angulo de un Rectangulo ");
        System.out.print("\n Escoja la operacion que desea: ");
        
        int opcion3 = scanner.nextInt();    
@@ -152,12 +153,17 @@ static Scanner scanner=new Scanner (System.in);
         int Resultado3= 0;
         System.out.println("El resultado es: " + Comunes.AreaSombreadadeunRectangulo(Resultado3)); 
          }
-
+        
+        case 5 -> {
+        int B3= 0;
+        System.out.println("El resultado es: " + Comunes.AngulodeunRectangulo(B3));
+         }
        
+        
+        
        }
     }
-
-  
  }
+    
     }
 }

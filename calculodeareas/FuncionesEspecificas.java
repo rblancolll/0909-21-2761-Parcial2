@@ -83,4 +83,19 @@ public double AreaSombreadadeunRectangulo (double sombreada){
      return Resultado;
     }
 
+public int AngulodeunRectangulo (int sombreada){
+     
+    
+     System.out.print("Angulo 1 = 90\n");   
+     int angulo1= 90; 
+     System.out.print("Angulo 2 = 90\n");   
+     int angulo2= 90;
+     System.out.print("Angulo 3 = 90\n");   
+     int angulo3= 90;
+     System.out.print("Angulo 4 = 90\n");   
+     int angulo4= 90;
+     int B3 = (angulo1+angulo2+angulo3+angulo4);
+     return B3;
+    }
+
 }
