@@ -24,4 +24,13 @@ public int AngulodeunCirculo (int sombreada){
      return B;
     }
 
+public double MedidadeunArcodeunCirculo (double sombreada){
+     
+       
+     double Angulo5=50;  
+     double Perimetro5=scanner.nextDouble();;
+     double Regla1 = (2*Math.PI*Perimetro5);
+     double resultado4 = (Regla1*Angulo5/360);
+     return resultado4;
+    }
 }
