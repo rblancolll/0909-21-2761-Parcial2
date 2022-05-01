@@ -6,6 +6,7 @@ import static calculodeareas.CalculoDeAreas.scanner;
 public class FuncionesComunes extends FuncionesEspecificas {
     //AREA
     public double AreadeunCirculo(double radio){
+      
       double radioo=scanner.nextDouble();
       double area = (2*Math.PI*radioo);
       return area;
@@ -19,4 +20,12 @@ public class FuncionesComunes extends FuncionesEspecificas {
      return perimetro;
     }
  
+ public double VolumendeunCirculo (double volumen){
+     
+     double r=scanner.nextDouble();
+     int num1=4;
+     int num2=3;
+     double volumen1= Math.PI*num1/num2*r*r*r;
+     return volumen1;
+    } 
 }

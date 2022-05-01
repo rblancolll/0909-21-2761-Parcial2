@@ -16,6 +16,7 @@ static Scanner scanner=new Scanner (System.in);
     case 1 -> {  
     System.out.print("\n 1. Area de un Circulo ");
     System.out.print("\n 2. Perimetro de un Circulo ");
+    System.out.print("\n 3. Volumen de un Circulo");
     System.out.print("\n Escoja la operacion que desea: ");
     
     int opcion1 = scanner.nextInt();    
@@ -35,7 +36,13 @@ static Scanner scanner=new Scanner (System.in);
         int perimetro=0;
         System.out.println("El resultado es: " + Comunes.PerimetrodeunCirculo(perimetro)); 
          }
-       
+      
+        case 3 -> { 
+        System.out.print("Volumen de un Circulo\n");   
+        System.out.print("Ingrese una altura\n");   
+        int volumen1=0;
+        System.out.println("El resultado es: " + Comunes.VolumendeunCirculo(volumen1));
+         }
   }
        
  
