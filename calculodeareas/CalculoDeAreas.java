@@ -127,6 +127,7 @@ static Scanner scanner=new Scanner (System.in);
        System.out.print("\n 3. Volumen de un Rectangulo");
        System.out.print("\n 4. Area Sombreada de un Rectangulo ");
        System.out.print("\n 5. Angulo de un Rectangulo ");
+       System.out.print("\n 6. Medida de un arco de un Rectangulo");
        System.out.print("\n Escoja la operacion que desea: ");
        
        int opcion3 = scanner.nextInt();    
@@ -159,7 +160,13 @@ static Scanner scanner=new Scanner (System.in);
         System.out.println("El resultado es: " + Comunes.AngulodeunRectangulo(B3));
          }
        
+        case 6 -> { 
         
+        System.out.print("Angulo = 60\n");  
+        System.out.print("Ingrese Perimetro\n");
+        int resultado6= 0;
+        System.out.println("El resultado es: " + Comunes.MedidadeunArcodeunRectangulo(resultado6));
+         }
         
        }
     }

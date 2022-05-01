@@ -98,4 +98,13 @@ public int AngulodeunRectangulo (int sombreada){
      return B3;
     }
 
+public double MedidadeunArcodeunRectangulo (double sombreada){
+     
+     
+     double Angulo7=60;  
+     double Perimetro7=scanner.nextDouble();
+     double Regla3 = (2*Math.PI*Perimetro7);
+     double resultado6 = (Regla3*Angulo7/360);
+     return resultado6;
+    }
 }
