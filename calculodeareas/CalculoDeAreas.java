@@ -10,6 +10,7 @@ static Scanner scanner=new Scanner (System.in);
     //CIRCULO
     System.out.print("\n 1. Circulo ");
     System.out.print("\n 2. Triangulo ");
+    System.out.print("\n 3. Rectangulo ");
     System.out.print("\n Escoja la operacion que desea: ");
     
     int opcion = scanner.nextInt(); 
@@ -117,10 +118,25 @@ static Scanner scanner=new Scanner (System.in);
         System.out.println("EL resultado es: "+Comunes.MedidadeunArcodeunTriangulo(resultado5));    
          }
        
-       
-       
-       }
+      }
     }
-}
+
+      case 3 -> {  
+       System.out.print("\n 1. Area de un Rectangulo ");
+       System.out.print("\n Escoja la operacion que desea: ");
+       
+       int opcion3 = scanner.nextInt();    
+       FuncionesComunes Comunes= new FuncionesComunes();
+       switch(opcion3){
+        case 1 -> { 
+        System.out.print("Ingrese la base:\n");  
+        double area3= 0;
+        System.out.println("El resultado es: " + Comunes.AreadeunRectangulo(area3));
+         }
+      }
+    }
+
+  
+ }
     }
 }

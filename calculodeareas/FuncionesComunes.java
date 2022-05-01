@@ -67,4 +67,16 @@ public double VolumendeunTriangulo (double volumen){
 
 }
 
+ public double AreadeunRectangulo (double rectangulo){
+   
+                                                           
+    double base=scanner.nextDouble();
+    System.out.print("Ingrese la altura:\n");                                                         
+    double altura=scanner.nextDouble();
+    double area3 = (base*altura);
+    return area3;      
+
+   }
+
+
 }
