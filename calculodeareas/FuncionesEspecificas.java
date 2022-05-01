@@ -17,5 +17,11 @@ public double AreaSombreadadeunCirculo (double sombreada){
      return Resultado;
     }
 
+public int AngulodeunCirculo (int sombreada){
+     
+     int Angulo=scanner.nextInt();
+     int B = (Angulo/2);
+     return B;
+    }
 
 }

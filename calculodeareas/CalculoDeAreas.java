@@ -18,6 +18,7 @@ static Scanner scanner=new Scanner (System.in);
     System.out.print("\n 2. Perimetro de un Circulo ");
     System.out.print("\n 3. Volumen de un Circulo");
     System.out.print("\n 4. Area Sombreada de un Circulo ");
+    System.out.print("\n 5. Angulo de un Circulo ");
     System.out.print("\n Escoja la operacion que desea: ");
     
     int opcion1 = scanner.nextInt();    
@@ -48,6 +49,12 @@ static Scanner scanner=new Scanner (System.in);
         case 4 -> { 
         double Resultado=0;
         System.out.println("El resultado es: " + Comunes.AreaSombreadadeunCirculo(Resultado));
+         }
+      
+        case 5 -> { 
+        System.out.print("Ingrese un Angulo\n");   
+        int B=0;
+        System.out.println("El resultado es: " + Comunes.AngulodeunCirculo(B));
          }
       
       }
