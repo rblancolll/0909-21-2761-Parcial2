@@ -15,6 +15,7 @@ static Scanner scanner=new Scanner (System.in);
     switch(opcion){
     case 1 -> {  
     System.out.print("\n 1. Area de un Circulo ");
+    System.out.print("\n 2. Perimetro de un Circulo ");
     System.out.print("\n Escoja la operacion que desea: ");
     
     int opcion1 = scanner.nextInt();    
@@ -29,6 +30,11 @@ static Scanner scanner=new Scanner (System.in);
         System.out.println("El resultado es: " + Comunes.AreadeunCirculo(area));
          }
         
+        case 2 -> {                                               
+        System.out.print("Perimetro de un Circulo\n");   
+        int perimetro=0;
+        System.out.println("El resultado es: " + Comunes.PerimetrodeunCirculo(perimetro)); 
+         }
        
   }
        

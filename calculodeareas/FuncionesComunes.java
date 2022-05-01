@@ -11,5 +11,12 @@ public class FuncionesComunes extends FuncionesEspecificas {
       return area;
     }
    
+ public double PerimetrodeunCirculo (double circulo){
      
+     
+     double radio2=scanner.nextDouble();
+     double perimetro = (Math.PI*radio2);
+     return perimetro;
+    }
+ 
 }
