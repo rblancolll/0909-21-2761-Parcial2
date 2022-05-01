@@ -90,5 +90,18 @@ public double PerimetrodeunRectangulo (double perimetro0){
 
 }
 
+public double VolumendeunRectangulo (double volumen){
+     
+     
+     System.out.print("Ingrese una altura\n");   
+     double ab2=scanner.nextDouble();
+     System.out.print("Ingrese una base\n");   
+     double h2=scanner.nextDouble();
+    System.out.print("Ingrese la altura del cuerpo\n");   
+     double hc2=scanner.nextDouble();
+     double volumen3= (ab2*h2)*hc2;
+     return volumen3; 
+
+}     
 
 }

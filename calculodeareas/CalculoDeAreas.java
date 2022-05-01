@@ -124,6 +124,7 @@ static Scanner scanner=new Scanner (System.in);
       case 3 -> {  
        System.out.print("\n 1. Area de un Rectangulo ");
        System.out.print("\n 2. Perimetro de un Rectangulo ");
+       System.out.print("\n 3. Volumen de un Rectangulo");
        System.out.print("\n Escoja la operacion que desea: ");
        
        int opcion3 = scanner.nextInt();    
@@ -141,7 +142,10 @@ static Scanner scanner=new Scanner (System.in);
         System.out.println("El resultado es: " + Comunes.PerimetrodeunRectangulo(perimetro3));      
          }
        
-       
+        case 3 -> { 
+        int volumen3= 0;
+        System.out.println("El resultado es: " + Comunes.VolumendeunRectangulo(volumen3));
+         }
        
        
        }
