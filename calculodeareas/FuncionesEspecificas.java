@@ -60,5 +60,13 @@ public int AngulodeunTriangulo (int sombreada){
      return B2;
     }
 
-
+public double MedidadeunArcodeunTriangulo (double sombreada){
+     
+     
+     double Angulo6=90;  
+     double Perimetro6=scanner.nextDouble();;
+     double Regla2 = (2*Math.PI*Perimetro6);
+     double resultado5 = (Regla2*Angulo6/180);
+     return resultado5;
+    }
 }

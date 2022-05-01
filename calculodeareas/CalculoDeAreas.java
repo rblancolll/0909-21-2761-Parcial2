@@ -75,6 +75,7 @@ static Scanner scanner=new Scanner (System.in);
        System.out.print("\n 3. Volumen de un Triangulo");
        System.out.print("\n 4. Area Sombreada de un Triangulo ");
        System.out.print("\n 5. Angulo de un Triangulo ");
+       System.out.print("\n 6. Medida de un arco de un Triangulo");
        System.out.print("\n Escoja la operacion que desea: ");
        int opcion2 = scanner.nextInt();    
        FuncionesComunes Comunes= new FuncionesComunes();
@@ -108,6 +109,16 @@ static Scanner scanner=new Scanner (System.in);
         int B2 = 0;
         System.out.println("EL resultado es: "+Comunes.AngulodeunTriangulo(B2));         
          }
+       
+       case 6 -> { 
+        System.out.print("Angulo = 90\n");  
+        System.out.print("Ingrese Perimetro\n");
+        int resultado5 = 0;
+        System.out.println("EL resultado es: "+Comunes.MedidadeunArcodeunTriangulo(resultado5));    
+         }
+       
+       
+       
        }
     }
 }
