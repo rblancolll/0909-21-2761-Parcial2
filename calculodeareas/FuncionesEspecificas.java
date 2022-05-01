@@ -69,4 +69,18 @@ public double MedidadeunArcodeunTriangulo (double sombreada){
      double resultado5 = (Regla2*Angulo6/180);
      return resultado5;
     }
+
+public double AreaSombreadadeunRectangulo (double sombreada){
+     
+     
+     System.out.print("Ingrese un Radio\n");   
+     double Radio3=scanner.nextDouble();
+     System.out.print("Ingrese un lado\n");   
+     double Lado3=scanner.nextDouble();
+     double AreaSombreada3 = (Lado3*Lado3);
+     double AreadelCirculo3 = (Radio3*Radio3*Math.PI);
+     double Resultado = (AreaSombreada3-AreadelCirculo3);
+     return Resultado;
+    }
+
 }
