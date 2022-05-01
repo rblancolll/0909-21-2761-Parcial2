@@ -28,4 +28,16 @@ public class FuncionesComunes extends FuncionesEspecificas {
      double volumen1= Math.PI*num1/num2*r*r*r;
      return volumen1;
     } 
+
+
+public double AreadeunTriangulo (double triangulo){
+   
+                                                           
+    double base=scanner.nextDouble();
+    System.out.print("Ingrese la altura:\n");                                                         
+    double altura=scanner.nextDouble();
+    double area2 = (base*altura)/2;
+    return area2;       
+   }
+
 }

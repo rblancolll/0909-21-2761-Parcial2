@@ -9,6 +9,7 @@ static Scanner scanner=new Scanner (System.in);
     
     //CIRCULO
     System.out.print("\n 1. Circulo ");
+    System.out.print("\n 2. Triangulo ");
     System.out.print("\n Escoja la operacion que desea: ");
     
     int opcion = scanner.nextInt(); 
@@ -68,7 +69,22 @@ static Scanner scanner=new Scanner (System.in);
        
  
     }
-
+       case 2 -> {  
+       System.out.print("\n 1. Area de un Triangulo ");
+       System.out.print("\n Escoja la operacion que desea: ");
+       int opcion2 = scanner.nextInt();    
+       FuncionesComunes Comunes= new FuncionesComunes();
+       switch(opcion2){
+        case 1 -> { 
+                                                             
+        System.out.print("Ingrese la base:\n");  
+        double area2= 0;
+        System.out.println("EL resultado es: "+Comunes.AreadeunTriangulo(area2)); 
+         }
+       
+       
+       }
     }
+}
     }
 }
