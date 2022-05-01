@@ -40,4 +40,16 @@ public double AreadeunTriangulo (double triangulo){
     return area2;       
    }
 
+public double PerimetrodeunTriangulo (double triangulo2){
+     
+     System.out.print("Lado 1\n");   
+     double lado1=scanner.nextDouble();
+     System.out.print("Lado 2\n");   
+     double lado2=scanner.nextDouble();
+     System.out.print("Lado 3\n");   
+     double lado3=scanner.nextDouble();
+     double perimetro2 = (lado1+lado2+lado3);
+     return perimetro2;
+
+  }
 }

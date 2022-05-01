@@ -71,6 +71,7 @@ static Scanner scanner=new Scanner (System.in);
     }
        case 2 -> {  
        System.out.print("\n 1. Area de un Triangulo ");
+       System.out.print("\n 2. Perimetro de un Triangulo ");
        System.out.print("\n Escoja la operacion que desea: ");
        int opcion2 = scanner.nextInt();    
        FuncionesComunes Comunes= new FuncionesComunes();
@@ -81,7 +82,11 @@ static Scanner scanner=new Scanner (System.in);
         double area2= 0;
         System.out.println("EL resultado es: "+Comunes.AreadeunTriangulo(area2)); 
          }
-       
+       case 2 -> {
+   
+        double perimetro2= 0;
+        System.out.println("EL resultado es: "+Comunes.PerimetrodeunTriangulo(perimetro2));       
+         }
        
        }
     }
