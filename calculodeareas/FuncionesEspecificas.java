@@ -47,5 +47,18 @@ public double AreaSombreadadeunTriangulo (double sombreada){
      return Resultado2;
     }
 
+public int AngulodeunTriangulo (int sombreada){
+     
+     
+     System.out.print("Angulo 1 = 55\n");   
+     int Angulo1= 55; 
+     System.out.print("Angulo 2 = 50\n");   
+     int Angulo2= 50;
+     System.out.print("Angulo 3 = 75\n");   
+     int Angulo3= 75;
+     int B2 = (Angulo1+Angulo2+Angulo3);
+     return B2;
+    }
+
 
 }
