@@ -33,4 +33,19 @@ public double MedidadeunArcodeunCirculo (double sombreada){
      double resultado4 = (Regla1*Angulo5/360);
      return resultado4;
     }
+
+public double AreaSombreadadeunTriangulo (double sombreada){
+     
+     
+     System.out.print("Ingrese un Radio\n");   
+     double Radio2=scanner.nextDouble();
+     System.out.print("Ingrese un lado\n");   
+     double Lado2=scanner.nextDouble();
+     double AreaSombreada2 = (Lado2*Lado2);
+     double AreadelCirculo2 = (Radio2*Radio2*Math.PI);
+     double Resultado2 = (AreaSombreada2-AreadelCirculo2);
+     return Resultado2;
+    }
+
+
 }

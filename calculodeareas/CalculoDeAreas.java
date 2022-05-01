@@ -73,6 +73,7 @@ static Scanner scanner=new Scanner (System.in);
        System.out.print("\n 1. Area de un Triangulo ");
        System.out.print("\n 2. Perimetro de un Triangulo ");
        System.out.print("\n 3. Volumen de un Triangulo");
+       System.out.print("\n 4. Area Sombreada de un Triangulo ");
        System.out.print("\n Escoja la operacion que desea: ");
        int opcion2 = scanner.nextInt();    
        FuncionesComunes Comunes= new FuncionesComunes();
@@ -94,7 +95,13 @@ static Scanner scanner=new Scanner (System.in);
         double volumen2= 0;
         System.out.println("EL resultado es: "+Comunes.VolumendeunTriangulo(volumen2)); 
          }
-    
+       
+       case 4 -> { 
+                                                             
+        double Resultado2= 0;
+        System.out.println("EL resultado es: "+Comunes.AreaSombreadadeunTriangulo(Resultado2));  
+         }
+        
        }
     }
 }
