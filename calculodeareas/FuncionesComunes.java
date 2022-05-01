@@ -52,4 +52,19 @@ public double PerimetrodeunTriangulo (double triangulo2){
      return perimetro2;
 
   }
+
+public double VolumendeunTriangulo (double volumen){
+     
+     
+     System.out.print("Ingrese una altura\n");   
+     double ab=scanner.nextDouble();
+     System.out.print("Ingrese una base\n");   
+     double h=scanner.nextDouble();
+    System.out.print("Ingrese la altura del cuerpo\n");   
+     double hc=scanner.nextDouble();
+     double volumen2= (ab*h)/2*hc;
+     return volumen2; 
+
+}
+
 }
